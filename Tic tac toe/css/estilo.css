@@ -1,0 +1,23 @@
+.tablero {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr /1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor {
+  height: 600px;
+  width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3px;
+  row-gap: 3px;
+}
+.caja {
+  border-radius: 20px;
+  border-style: groove;
+  background-color: #faebd7;
+}
+#boton {
+  border-radius: 5px;
+}
